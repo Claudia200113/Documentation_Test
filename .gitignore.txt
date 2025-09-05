@@ -1,0 +1,14 @@
+# Ignore specific files. (Note that comments start with: #)
+Thumbs.db
+
+# Wildcards: Ignore all .exe files.
+*.exe
+
+# Exception to wildcards: Do track the special.exe file.
+!special.exe
+
+# Ignore all files in any folder called build.
+build/
+
+# Ignore all .pdf files in the doc/ folder and any of its sub-folders. ** means sub folders
+doc/**/*.pdf
